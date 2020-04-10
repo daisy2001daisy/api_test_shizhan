@@ -1,0 +1,52 @@
+{
+  "uid" : "3e2cd8c766d92bb9",
+  "name" : "test_login_book[data4]",
+  "fullName" : "test_login_books#test_login_book",
+  "historyId" : "12ffebfffadc8643fb51b420bc149410",
+  "time" : {
+    "start" : 1586520110233,
+    "stop" : 1586520110252,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_login_books"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HHRE3QJ"
+  }, {
+    "name" : "thread",
+    "value" : "15940-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_login_books"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'测试用例ID': 'book_004', '模块': '书籍管理系统', '接口名称': '修改书籍', '前置条件': 'login', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '请求方法': 'put', '请求参数类型': 'json', '请求参数': '{\"author\":\"user2\", \"done\": true, \"name\": \"自动化测试\"}', '期望结果': '自动化测试', '是否运行': 'y', '请求头': '{\"Authorization\": \"JWT {token}\"}', '状态码': 200.0}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3e2cd8c766d92bb9.json",
+  "parameterValues" : [ "{'测试用例ID': 'book_004', '模块': '书籍管理系统', '接口名称': '修改书籍', '前置条件': 'login', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '请求方法': 'put', '请求参数类型': 'json', '请求参数': '{\"author\":\"user2\", \"done\": true, \"name\": \"自动化测试\"}', '期望结果': '自动化测试', '是否运行': 'y', '请求头': '{\"Authorization\": \"JWT {token}\"}', '状态码': 200.0}" ]
+}

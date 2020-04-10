@@ -1,0 +1,52 @@
+{
+  "uid" : "4fcc5e1f2cc15da7",
+  "name" : "test_login_book[data1]",
+  "fullName" : "test_login_books#test_login_book",
+  "historyId" : "38dc318b084013f3abe9f8db492605fe",
+  "time" : {
+    "start" : 1586520110172,
+    "stop" : 1586520110186,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_login_books"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HHRE3QJ"
+  }, {
+    "name" : "thread",
+    "value" : "15940-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_login_books"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'测试用例ID': 'book_001', '模块': '书籍管理系统', '接口名称': '获取所有书籍信息', '前置条件': 'login', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '请求方法': 'get', '请求参数类型': '', '请求参数': '', '期望结果': 'Python接口自动化测试实战', '是否运行': 'y', '请求头': '{\"Authorization\": \"JWT {token}\"}', '状态码': 200.0}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4fcc5e1f2cc15da7.json",
+  "parameterValues" : [ "{'测试用例ID': 'book_001', '模块': '书籍管理系统', '接口名称': '获取所有书籍信息', '前置条件': 'login', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '请求方法': 'get', '请求参数类型': '', '请求参数': '', '期望结果': 'Python接口自动化测试实战', '是否运行': 'y', '请求头': '{\"Authorization\": \"JWT {token}\"}', '状态码': 200.0}" ]
+}

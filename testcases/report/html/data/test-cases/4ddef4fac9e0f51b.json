@@ -1,0 +1,52 @@
+{
+  "uid" : "4ddef4fac9e0f51b",
+  "name" : "test_login_book[data2]",
+  "fullName" : "test_login_books#test_login_book",
+  "historyId" : "065b31a99e5db31388fb2951565f6bfe",
+  "time" : {
+    "start" : 1586520110192,
+    "stop" : 1586520110208,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_login_books"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HHRE3QJ"
+  }, {
+    "name" : "thread",
+    "value" : "15940-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_login_books"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'测试用例ID': 'book_002', '模块': '书籍管理系统', '接口名称': '添加书籍', '前置条件': 'login', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '请求方法': 'post', '请求参数类型': 'json', '请求参数': '{\"author\":\"wuya\", \"done\": true, \"name\": \"API实战测试\"}', '期望结果': 'API实战测试', '是否运行': 'y', '请求头': '{\"Authorization\": \"JWT {token}\"}', '状态码': 200.0}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4ddef4fac9e0f51b.json",
+  "parameterValues" : [ "{'测试用例ID': 'book_002', '模块': '书籍管理系统', '接口名称': '添加书籍', '前置条件': 'login', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '请求方法': 'post', '请求参数类型': 'json', '请求参数': '{\"author\":\"wuya\", \"done\": true, \"name\": \"API实战测试\"}', '期望结果': 'API实战测试', '是否运行': 'y', '请求头': '{\"Authorization\": \"JWT {token}\"}', '状态码': 200.0}" ]
+}

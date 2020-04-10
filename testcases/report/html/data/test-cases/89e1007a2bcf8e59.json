@@ -1,0 +1,52 @@
+{
+  "uid" : "89e1007a2bcf8e59",
+  "name" : "test_login_book[data0]",
+  "fullName" : "test_login_books#test_login_book",
+  "historyId" : "adfb399c800d3323cd9d44256c6551af",
+  "time" : {
+    "start" : 1586520110151,
+    "stop" : 1586520110166,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_login_books"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HHRE3QJ"
+  }, {
+    "name" : "thread",
+    "value" : "15940-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_login_books"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'测试用例ID': 'login', '模块': '登录', '接口名称': '登录授权', '前置条件': '', '请求地址': 'http://127.0.0.1:5000/auth', '请求方法': 'post', '请求参数类型': 'json', '请求参数': '{\"username\": \"user2\", \"password\": \"abcxyz\"}', '期望结果': 'access_token', '是否运行': 'y', '请求头': '', '状态码': 200.0}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "89e1007a2bcf8e59.json",
+  "parameterValues" : [ "{'测试用例ID': 'login', '模块': '登录', '接口名称': '登录授权', '前置条件': '', '请求地址': 'http://127.0.0.1:5000/auth', '请求方法': 'post', '请求参数类型': 'json', '请求参数': '{\"username\": \"user2\", \"password\": \"abcxyz\"}', '期望结果': 'access_token', '是否运行': 'y', '请求头': '', '状态码': 200.0}" ]
+}
